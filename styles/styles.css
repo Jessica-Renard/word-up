@@ -1,0 +1,226 @@
+*  {
+    margin: 0;
+    padding: 0;
+   
+  }
+
+body {
+    display: grid;
+    margin: 0px auto; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 12px; 
+    min-height: 100%;
+    color: rgb(10, 10, 10)
+  }
+  
+header {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;  
+  padding: 10px;
+  min-height: 50px;
+  max-height: 15%;
+  background-color: royalblue ;
+ }
+
+nav {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 30px;
+  padding: 5px;
+  background-color: rgba(255, 160, 122);
+}
+
+nav a {
+  color: rgb(10, 10, 10);
+  text-decoration: none;
+}
+
+aside {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 150px;
+  justify-content: center;
+  padding: 10%;
+  background-color: rgba(65, 105, 225, .7);
+  font-weight: 500;
+}
+
+main {
+  display: grid;
+  margin: 0px;
+  font-family: 'Schoolbell', cursive;
+  background-color:lightgray;
+  text-align: center;
+}
+
+/* is below redundant? check when can, and among other layout pages too */
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  padding: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  font-stretch: extra-expanded;
+}
+
+h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+h5 {
+  font-size: .9rem;
+  font-weight: 400;
+  }
+
+footer {
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;  
+  padding: 5%;
+  background-color:rgba(255, 160, 122, .5);
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  background-color:lightgray;
+}
+
+.container {
+  padding: 5%;
+}
+
+.open {
+  cursor: pointer;
+  padding: 5%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.content {
+  padding: 5%;
+  display: none;
+  overflow: hidden;
+}
+
+.add-column {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.reader {
+  margin-top: 10%;
+  margin-bottom: 5%
+}
+
+.box {
+  width: 5rem;
+  font-size: 4rem;
+  color: black;
+  cursor: pointer;
+}
+
+.wordlist {
+  display: grid;
+}
+
+.pad {
+  padding: 10%;
+}
+
+.pad-bottom {
+  padding-bottom: 15%;
+}
+
+.marg {
+  margin: 10%;
+}
+.marg-top {
+  margin-top: 20%;
+}
+
+.show {
+  justify-content: center;
+  min-height: 200px;
+  max-width: 100%;
+}
+
+#input {
+  display: grid;
+  text-align: center;
+}
+
+#correct {
+  background-color:rgba(255, 160, 122, 0.7);
+  border:1px solid rgb(10, 10, 10);
+  margin-bottom: 70px;
+}
+
+#spot {
+  display: grid;
+  padding: 5%;
+}
+
+/* styles specific to  letter-cases.html */
+
+.alphbox {
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 6px;
+  padding-bottom: 18px;
+  width: 5rem;
+  font-size: 4rem;
+  color: black;
+  cursor: pointer;
+  background-color: rgb(116, 228, 203);
+  border: 2px solid rgb(10, 10, 10);
+}
+
+.dark {
+  background-color: black;
+}
+
+.alphabet {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.alphaback {
+  background-color: rgb(116, 228, 203);
+}
+
+.foot {
+  background-color: rgba(47, 138, 118, 0.85);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
