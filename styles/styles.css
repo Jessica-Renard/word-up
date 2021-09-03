@@ -10,7 +10,8 @@ body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 12px; 
     min-height: 100%;
-    color: rgb(10, 10, 10)
+    color: rgb(10, 10, 10);
+    background-color: lightgray;
   }
   
 header {
@@ -37,6 +38,11 @@ nav a {
   text-decoration: none;
 }
 
+nav a:hover {
+  color: darkslateblue;
+  font-size: 1.3rem;
+}
+
 aside {
   display: flex;
   flex-direction: row;
@@ -56,7 +62,7 @@ main {
   text-align: center;
 }
 
-/* is below redundant? check when can, and among other layout pages too */
+/* is section worked in effectively? */
 section {
   display: flex;
   justify-content: center;
@@ -111,21 +117,6 @@ footer {
 
 .container {
   padding: 5%;
-}
-
-.open {
-  cursor: pointer;
-  padding: 5%;
-  text-align: left;
-  border: none;
-  outline: none;
-  transition: 0.4s;
-}
-
-.content {
-  padding: 5%;
-  display: none;
-  overflow: hidden;
 }
 
 .add-column {
@@ -188,6 +179,17 @@ footer {
 
 /* styles specific to  letter-cases.html */
 
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+li:hover {
+  transform: scale(1.1);
+  color: black;
+}
+
 .alphbox {
   justify-content: center;
   align-items: center;
@@ -204,6 +206,10 @@ footer {
 
 .dark {
   background-color: black;
+}
+
+.light {
+  color: lightgray;
 }
 
 .alphabet {
@@ -223,4 +229,34 @@ footer {
 
 .uppercase {
   text-transform: uppercase;
+}
+
+
+#one:hover, #two:hover, #three:hover,
+#four:hover, #five:hover, #six:hover,
+#seven:hover, #eight:hover, #nine:hover,
+#ten:hover, #eleven:hover, #twelve:hover,
+#thirtn:hover, #fourtn:hover, #fiftn:hover,
+#sixtn:hover, #seventn:hover, #eightn:hover,
+#ninetn:hover, #twenty:hover, #twone:hover,
+#twtwo:hover, #twthree:hover, #twfour:hover,
+#twfive:hover, #twsix:hover {
+  transform:scale(1.2);
+} 
+
+/* styles specific to 4 and 5-letter program */
+
+.open {
+  cursor: pointer;
+  padding: 5%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+.content {
+  padding: 5%;
+  display: none;
+  overflow: hidden;
 }

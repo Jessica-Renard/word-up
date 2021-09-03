@@ -1,4 +1,4 @@
-/* "Word Up" early literacy exercises page (3-letter words' page)
+/* "Word Up Preps" early literacy exercises page (3-letter words' page)
 - based on 3 area clicks/touches so the common sounds are fully engaged across contexts for phonemic awareness
 - use quality asset files in .wav and .svg for clear engagement associations
 - follow functional paradigm in larger set of 4 and 5-letter exercises 
@@ -7,12 +7,12 @@
 
 let l1, l2, l3, see, hear;
 
-/* nested by C/V/C group
+/* nested 2-deep by C/V/C group
 associate and incorporate .wav and .svg asset files by naming convention */
 const wordBankSets = [
     [
         "Dan", "Jan", "Pam", "Sam", "bad", "bam", "ban", "bat", "can", "cap", "car", "cat", "dad", "dam", "fan", "far", "fat", "gas", "had", "ham", "has", "hat",
-        "jab", "jam", "lad", "lap", "man", "map", "mat", "nap", "pan", "pat", "rad", "rap", "rat", "sad", "sap", "sat", "tan", "tap", "tar", "yam"
+        "jab", "jam", "lad", "lap", "man", "map", "mat", "nap", "pan", "pat", "rad", "ram", "rap", "rat", "sad", "sap", "sat", "tan", "tap", "tar", "yam"
     ],
     [
         "Ben", "Jed", "Jen", "Ted", "bed", "beg", "bet", "den", "fed", "gem", "get", "hem", "hen", "jet", "keg", "led", "leg", "let", "men", "met", "net", "peg", "pen",
@@ -25,7 +25,7 @@ const wordBankSets = [
     ],
     [
         "Bob", "Jon", "Rob", "Ron", "Tom", "bog", "cob", "cod", "cog", "cop", "cot", "dog", "dot", "fog", "gob", "got", "hog", "hop", "hot", "job", "jog", "jot",
-        "log", "lot", "mob", "mom", "mop", "nod", "not", "pom", "pop", "pot", "rob", "rod", "rot", "sob", "sod", "top", "tot"
+        "log", "lot", "mob", "mom", "mop", "nod", "not", "pom", "pop", "pot", "rob", "rod", "rot", "sob", "sod", "top"
     ],
     [
         "bud", "bug", "bum", "bun", "bus", "but", "cub", "cud", "cup", "cut", "dub", "dud", "dun", "fun", "gum", "gun", "gut", "hub", "hug", "hum", "hut", "jug",
@@ -33,7 +33,7 @@ const wordBankSets = [
     ]
 ];
 
-// each word group is nested 2 deep; saving each original data subset to variables for additional access dexterity.
+// saving each original data subset to variables for additional access dexterity.
 const aFiles = wordBankSets[0];
 const eFiles = wordBankSets[1];
 const iFiles = wordBankSets[2];
@@ -143,18 +143,16 @@ for (i = 1; i < noO.length; i += 2) {
     oL3Pool.push(noO[i]);
 }
 
-/* link #wordClick to click events, and each of the 3 digit spaces populate based on conditional pools, based on randomly generated short-vowel grouping */
+/* link #wordClick to click events, and each one of 3 digit div spaces populate based on conditional pools, 
+based on randomly generated short-vowel grouping */
 l1 = document.getElementById('l1');
 l2 = document.getElementById('l2');
 l3 = document.getElementById('l3');
-let letters3 = document.getElementById("vowelGroup");
-let l1Pool, l3Pool, ctA = 0,
-    ctE = 0,
-    ctI = 0,
-    ctO = 0,
-    ctU = 0;
 
-// subsequent click functions are nested among l2 click, so letter banks set specific to vowel not guaranteed word.
+let l1Pool, l3Pool, ctA = 0, ctE = 0, ctI = 0, ctO = 0, ctU = 0;
+
+// subsequent click functions are nested among l2 click, so letter banks set specific to vowel not guaranteed word
+// such sets should alter with vowel
 l2.onclick = () => {
 
     let vowelFirst = ['a', 'e', 'i', 'o', 'u'];
@@ -199,30 +197,54 @@ l2.onclick = () => {
     l1.onclick = () => {
         let randomIndex = Math.floor(Math.random() * l1Pool.length);
         let showLetter = l1Pool[randomIndex];
-        l1.innerText = showLetter;
+        l1.innerHTML = showLetter;
     }
 
     l3.onclick = () => {
         let randomIndex = Math.floor(Math.random() * l3Pool.length);
         let showLetter = l3Pool[randomIndex];
-        l3.innerText = showLetter;
+        l3.innerHTML = showLetter;
     }
 }
 
-let correct = 0, improve = [];
-// incorporate asset files for #show front-end (can also apply them to a rhyme-time game feature)
-// add onTouch, media queries and other accessibility
+let correct = 0, discuss = [];
+let currentWord = [], verifyWord = [];
+const checkWord = document.querySelector("#checkWord");
+const showCorrect = document.querySelector("#number");
 
-// special logic for capital letter words featured in selections (ie rush L3 match)?
-// maybe reduce arrays based on letters positioned (for proper nouns)
-// use wordlists(.md) for UI and counts for usage features; add to resources(.md)
+checkWord.addEventListener('click', determine);
+
+function determine() {
+    currentWord = [];
+    currentWord.push(l1.innerHTML);
+    currentWord.push(l2.innerHTML);
+    currentWord.push(l3.innerHTML);
+    verifyWord = currentWord.join("");
+    console.log(verifyWord);
+
+    if (words.includes(verifyWord)) {
+        correct += 1;
+        showCorrect.innerHTML = correct;
+    } else {
+        discuss.push(verifyWord);
+    } console.log(discuss);
+}
+
+
+// !incorporate asset files for #show front-end (can also apply them to a rhyme-time game feature)
+// add media queries and other device and browser accessibility, especially according multimedia
+
+// !apply special logic for proper nouns (names) featured in selections (ie rush L3 match)?
+// maybe reduce into temp array based on letters positioned (for above-mentioned proper nouns)
+// add/format wordlists(.md) for UI and apply counts to usage features; add to/format resources(.md)
 // quick page layout and logic for toggling between uppercase and lowercase form of each alphabet letter.
 
-/* logics for longer word builds, wherein assign place values by its singly-determined 
-word click event, with its letter spaces' subsequent clicks displaying those subsequent phonemic groupings.*/
+/* logics for longer word builds: assign place values by singly-determined word click event,
+with its letter spaces' subsequent clicks only adding a style to display subsequent phonemic groupings.*/
 
 /* To check the word, it's one click to gather from DOM contents
 and compare among array items, and it's one incrementor for Correct!
 
 */
+
 

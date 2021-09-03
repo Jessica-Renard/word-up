@@ -1,7 +1,7 @@
 // menu item
-const reset = document.getElementById("casesAll");
+const caseAll = document.getElementById("cases-all");
 const allAlpha = document.getElementById("alphabet");
-reset.addEventListener("click", updateAll);
+caseAll.addEventListener("click", updateAll);
 
 // alphabet within reader section
 // setting variables to id labels 
@@ -60,18 +60,22 @@ twfour.addEventListener("click", updateX);
 twfive.addEventListener("click", updateY);
 twsix.addEventListener("click", updateZ);
 
-// setting functions for text-transform specified by id variable
-// by removing or adding uppercase to classList, based on classList.contains
+
+// changes casing at once for all alphabet divs; will not lowercase uniquely from all-uppercase setting; will not undo individually toggled states
 function updateAll() {
     if (allAlpha.classList.contains("uppercase")) {
         allAlpha.classList.remove("uppercase");
     } else {
         allAlpha.classList.add("uppercase");
     }
-}
+} 
+/* also look to undo any individual classList.add or classList.remove settings 
+for true reset uniformity and prelude above casing toggle so it does both */
 
+// setting functions for text-transform specified by id variable
+// by removing or adding uppercase to classList, based on classList.contains()
 function updateA() {
-    if (one.classList.contains("uppercase")) {
+    if (allAlpha.classList.contains("uppercase") || one.classList.contains("uppercase")) {
         one.classList.remove("uppercase");
     } else {
         one.classList.add("uppercase");

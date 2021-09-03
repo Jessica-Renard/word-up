@@ -1,14 +1,11 @@
-If you're guiding your child through these exercises, or they come to you among autonomous word list exercises, feel free to take the opportunity to connect more linguistic nuance to your child's experience.
+From organization Reading Rockets: 
 
-As an example, there are occasions when a child might arrive at familiar-sounding words not featured in a word list. A couple examples include:
+    Early literacy tips by age: https://www.readingrockets.org/article/activities-encourage-speech-and-language-development
 
-[King] Tut - the wonder-boy Egyptian pharoah. 
-Tag [watch] - the wristwatch brand reference.
+    Environmental print: https://www.readingrockets.org/article/environmental-print
 
-The 3-letter exercise also does not feature the words "tum" or "pap", but these word sounds might already be familiar to your child and can make a good conversation. Similarly, "pub" and "hub" are meaningful references with strong cultural effusions and, if they come up as off-list words for your little one, can be a meaningful highlight. And anything else about the sounds of letters together really. 
+    Screening tool: https://www.readingrockets.org/sites/default/files/t2k_screeningtool.pdf
 
-Word lists are included to clarify featured words, in case any generators (randomly) miss some at a time and you want to look to confirm, and to serve helpful previews and practices across exercise groups. 
+    Screening answer sheet: https://www.readingrockets.org/sites/default/files/grtr_answer_sheet_english.pdf
 
-Playing with the rhyming nature of each vowel group does not take long to become a major source of confidence for early readers. Many of the words will already be verbally familiar from spoken language acquisitions of these ages. Yet, solidly linking sight to sound with the decided glyphs of the English alphabet is no less an incredible, fast-paced feat because of the preliminary tendencies of spoken word. Establish firm knowledge of word sounds from both their groupings around vowel sounds and impacts on vowel sounds, and build onward for a gratifying sense of communication that your child is encouraged to maintain, deepen, and extend.
-
-It's important for speakers and readers to understand that pronunciation is often enough dialectical, when not outright arbitrary. While tenses, other agreement such as subject/verb, and further grammar take stage speedily during early literacy, do not be afraid to embrace the outright idiosyncracies of language that all readers and writers come to accept. This is largely why high-frequency "sight" words have become such an outstated complement to routine phonics learning. The English language gets complicated without exceptions, and yet it also has one of the higher occurrences of rule exceptions for its spellings and pronunciations. Reading education experts sometimes cite a "club of readers" to which all readers should feel they belong, and with affirming ongoing inductions. Establishing this connection and rooting it in a healthy confidence means that their reading work is foremost accepted, and that you celebrate that they read among you even before they might glide at pace. 
+    Reading tips for parents of ages infant thru third grade: https://www.readingrockets.org/article/reading-tips-parents-multiple-languages
