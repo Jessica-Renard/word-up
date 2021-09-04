@@ -177,7 +177,7 @@ footer {
   padding: 5%;
 }
 
-/* styles specific to  letter-cases.html */
+/* styles specific to  letters.html */
 
 ul {
   display: flex;
@@ -202,6 +202,7 @@ li:hover {
   cursor: pointer;
   background-color: rgb(116, 228, 203);
   border: 2px solid rgb(10, 10, 10);
+  border-radius: 14%;
 }
 
 .dark {
