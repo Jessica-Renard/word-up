@@ -1,4 +1,4 @@
-## Word Up Preps
+## Exercises with ***Word Up Preps***
 
 If you're guiding your child through these exercises, or they come to you among autonomous word list exercises, feel free to take moments to connect and affirm even more language nuances in your child's world of experiences.
 
@@ -14,7 +14,7 @@ and you get the idea. These word sounds might already be familiar to your child 
 
 Word lists are included to clarify featured words, in case any of a cluster are (randomly) missed at a time and you want to look to confirm, and to serve helpful previews and practices across exercise groups. Playing with the rhyming nature of each vowel group does not take long to become a major source of confidence for early readers. That is why "checking" words from our jibber-jabber chatter is a featured activity in the 3-letter exercises. All its featured words are short vowel sounds for the introductory consistency.  
 
-# More Words Please!
+## More Words Please!
 The early literacy word groups site titled ***Presenting*** delves across categorical long vowel sounds, building upon vocabulary via categorical word jogging reels that can be set across common features. The ***Word Up Preps*** site here bumps long vowel words under 4-letters into its 4-letter exercises, since the long vowel sounds less often occur in the introductory C/V/C pattern, and very often find semblance in even slightly longer words. 
 
 ***Many*** of the words are already verbally familiar from spoken language acquisitions of these ages. Many yet are stretching your early reader's familiarity and usage, especially beyond the 3-letter exercises! Regardless, solidly linking sight to sound with the decided glyphs of the English alphabet is no less an incredible, fast-paced feat because of the preliminary tendencies of spoken word. Establish firm knowledge of word sounds from both their groupings around vowel sounds and impacts on vowel sounds, and build onward for a gratifying sense of communication that your child is encouraged to maintain, deepen, and extend.
