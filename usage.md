@@ -2,12 +2,12 @@
 
 If you're guiding your child through these exercises, or they come to you among autonomous word list exercises, feel free to take moments to connect and affirm even more language nuances in your child's world of experiences.
 
-As an example, there are occasions when your child might arrive at familiar-sounding words not featured in a word list. Examples from the 3-letter exercise alone make for salient points on the varied appearances of language in our lives, including:
+As an example, there are occasions when your child might arrive at familiar-sounding words not featured in a word list. Examples from the 3-letter exercise alone make for salient points on varied appearances of language in our lives, with:
 
 [King] Tut - the wonder-boy Egyptian pharoah. 
 Tag [watch] - the wristwatch brand reference.
 
-More unfeatured language references are: "tum", "Pap", "tot", "bot", "pub", "hub", and you get the idea. These word sounds might already be familiar to your child and make for useful, bonded conversations. Often, they may be highly meaningful references with stronger cultural effusions than usual, so if they come up as off-list words for your little one, go ahead and make it a meaningful highlight when you can... And anything else about the sounds of letters together really. 
+More unlisted references are: "tum", "Pap", "tot", "bot", "pub", "hub", and you get the idea. These word sounds might already be familiar to your child and make for useful, bonded conversations. Often, they may be highly meaningful references with stronger cultural effusions than usual, so if they come up as off-list words for your little one, go ahead and make it a meaningful highlight when you can... And anything else about the sounds of letters together really. 
 
 Word lists are included to clarify featured words, in case any of a cluster are (randomly) missed at a time and you want to look to confirm, and to serve helpful previews and practices across exercise groups. Playing with the rhyming nature of each vowel group does not take long to become a major source of confidence for early readers. That is why "checking" words from our jibber-jabber chatter is a featured activity in the 3-letter exercises. All its featured words are short vowel sounds for the introductory consistency. 
 
