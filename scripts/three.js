@@ -15,7 +15,7 @@ const wordBankSets = [
         "jab", "jam", "lad", "lap", "man", "map", "mat", "nap", "pan", "pat", "rad", "ram", "rap", "rat", "sad", "sap", "sat", "tan", "tap", "tar", "yam"
     ],
     [
-        "Ben", "Jed", "Jen", "Ted", "bed", "beg", "bet", "den", "fed", "gem", "get", "hem", "hen", "jet", "keg", "led", "leg", "let", "men", "met", "net", "peg", "pen",
+        "Ben", "Jed", "Jen", "Ken", "Ted", "bed", "beg", "bet", "den", "fed", "gem", "get", "hem", "hen", "jet", "keg", "led", "leg", "let", "men", "met", "net", "peg", "pen",
         "pep", "pet", "red", "set", "ten", "vet", "web", "wed", "wet", "yes", "yet", "zen"
     ],
     [
